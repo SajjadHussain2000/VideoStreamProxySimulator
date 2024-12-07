@@ -89,9 +89,32 @@ The server runs on `localhost:8080` by default.
 ---
 
 ## **Future Improvements**
-- Add full DASH protocol support.
-- Include UI visualization for easier configuration.
-- Enable detailed logging and analytics for video stream performance.
+
+1. **Full DASH Protocol Support**:
+   - Add complete DASH functionality alongside existing HLS support.
+
+2. **Custom Delay UI**:
+   - Develop a user-friendly web interface for configuring delay parameters.
+
+3. **Detailed Logging and Analytics**:
+   - Provide detailed logs for requests, delays, and failures.
+   - Visualize streaming performance metrics.
+
+4. **Dynamic Network Conditions**:
+   - Introduce bandwidth throttling to simulate low network speeds.
+   - Add packet loss simulation for advanced testing.
+
+5. **Adaptive Bitrate Streaming (ABR) Simulation**:
+   - Simulate network changes to test adaptive bitrate switching in players.
+
+6. **Error Injection**:
+   - Allow forced error responses (e.g., HTTP 404/500) to validate player error recovery mechanisms.
+
+7. **Cloud Deployment**:
+   - Add support for cloud-based deployment to run proxy simulations at scale.
+
+8. **Extensive Protocol Support**:
+   - Expand beyond HLS/DASH to other protocols like Smooth Streaming or MPEG-TS.
 
 ---
 
