@@ -100,8 +100,3 @@ Contributions are welcome! Follow these steps:
 1. Fork the repo.
 2. Create a feature branch.
 3. Submit a pull request.
-
----
-
-## **License**
-MIT License.
